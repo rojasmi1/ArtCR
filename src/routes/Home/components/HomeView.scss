@@ -1,0 +1,16 @@
+$headerFontSize : 64px;
+
+.maxPortrait {
+  display: block;
+  width: 540px;
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+.mainHeader{
+  text-align: center;
+  font-size: $headerFontSize;
+  font-weight: bold;
+  padding: 20px 5px;
+  font-family: "Alex Brush";
+}

@@ -1,0 +1,52 @@
+@font-face{
+  font-family: "Alex Brush";
+  src: url('../static/fonts/alexbrush.ttf') format('truetype'),
+       url('../static/fonts/alexbrush.woff') format('woff');
+}
+
+@font-face{
+  font-family: "Butter";
+  src: url('../static/fonts/butter.ttf') format('truetype')
+}
+
+:global {
+  @import 'base';
+  @import '~normalize.css/normalize';
+  // @include font-face(alex , ../static/fonts/alexbrush);
+
+  // Some best-practice CSS that's useful for most apps
+  // Just remove them if they're not what you want
+  html {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  //Index
+
+  // Content
+  #about-the-author{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: "Butter";
+  }
+
+  body > .container{
+    padding: 60px 15px 0;
+  }
+
+  }
