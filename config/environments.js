@@ -19,6 +19,20 @@ export default {
     }
   }),
 
+    // ======================================================
+  // Overrides when NODE_ENV === 'development-nitrous'
+  // ======================================================
+  developmentnitrous: (config) => ({
+    compiler_public_path: `http://artcr-210223.nitrousapp.com:${config.server_port}/`,
+    proxy: {
+      enabled: false,
+      options: {
+        host: 'http://artcr-210223.nitrousapp.com:8000',
+        match: /^\/api\/.*/
+      }
+    }
+  }),
+
   // ======================================================
   // Overrides when NODE_ENV === 'production'
   // ======================================================

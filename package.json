@@ -16,6 +16,7 @@
     "serve": "better-npm-run start",
     "postinstall": "npm run deploy:prod",
     "dev": "better-npm-run dev",
+    "dev-nitrous": "better-npm-run dev-nitrous",
     "dev:no-debug": "npm run dev -- --no_debug",
     "test": "better-npm-run test",
     "test:dev": "npm run test -- --watch",
@@ -35,6 +36,13 @@
       "command": "nodemon --exec babel-node bin/server",
       "env": {
         "NODE_ENV": "development",
+        "DEBUG": "app:*"
+      }
+    },
+    "dev-nitrous": {
+      "command": "nodemon --exec babel-node bin/server",
+      "env": {
+        "NODE_ENV": "developmentnitrous",
         "DEBUG": "app:*"
       }
     },
