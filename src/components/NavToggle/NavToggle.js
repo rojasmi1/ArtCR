@@ -1,4 +1,5 @@
 import React from 'react'
+import { IndexLink, Link } from 'react-router'
 import classes from './NavToggle.scss'
 
 export const NavToggle = (props) => (
@@ -9,7 +10,7 @@ export const NavToggle = (props) => (
         <span className="icon-bar"></span>
         <span className="icon-bar"></span>
       </button>
-      <a className="navbar-brand" href="#">{props.navbarBrand}</a>
+    <IndexLink to="/" className="navbar-brand" href="#">{props.navbarBrand}</IndexLink>
     </div>
   )
 

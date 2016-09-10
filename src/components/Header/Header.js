@@ -9,17 +9,17 @@ export const Header = (props) => (
     <NavToggle for={props.menuId} navbarBrand="Max Rojas Vargas!"/>
     <div className="collapse navbar-collapse" id={props.menuId}>
       <ul className="nav navbar-nav">
-        <li><a href="#">Home</a></li>
+        <li><IndexLink to="/">Home</IndexLink></li>
         <li className="dropdown">
           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Meet the artist<span className="caret"></span></a>
           <ul className="dropdown-menu">
-            <li><a href="#">About Max</a></li>
-            <li><a href="#">About the studio</a></li>
+            <li><Link to="/about-max">About Max</Link></li>
+            <li><Link to="/about-studio">About the studio</Link></li>
           </ul>
         </li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Shows</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/shows">Shows</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </div>
   </div>
