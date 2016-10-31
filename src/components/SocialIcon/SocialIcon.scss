@@ -1,7 +1,22 @@
 $icon-height: 40px;
+$animation-distance: 10px;
 
 .icon{
   width: auto;;
   height: $icon-height;
   padding: 0 10px;
+}
+
+.icon:hover{
+  animation-duration: 0.4s;
+  animation-name: bounce;
+}
+
+@keyframes bounce{
+  from{
+    margin-bottom: 0;
+  }
+  to{
+    margin-bottom: $animation-distance;
+  }
 }

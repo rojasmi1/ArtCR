@@ -9,7 +9,7 @@ export const Footer = (props) => (
   <footer className={classes.footer}>
     <div className="container">
       <section className="row" id="copyright">
-          <div className="col-lg-6">
+          <div className="col-lg-5 col-lg-offset-1">
             <span className="text-muted" dangerouslySetInnerHTML={props.text()}></span>
           </div>
           <div className="col-lg-4 col-lg-offset-2">
