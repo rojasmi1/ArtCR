@@ -6,5 +6,5 @@ export const welcomeMessageBody = function(){
 }
 
 export const footerText = function () {
-  return {__html: "Copyright © 2016 Max Rojas Vargas. Developed by <a href='mailto:michael.rojasp@gmail.com'>Michael Rojas Pereira</a>."}
+  return {__html: "Copyright © 2017 <a href='mailto:michael.rojasp@gmail.com'>Michael Rojas Pereira</a>."}
 }
