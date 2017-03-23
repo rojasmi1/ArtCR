@@ -13,6 +13,12 @@ License
 This software should not be use and/or distributed by anyone apart from the creator. Even if the access for creating an account
 in the production site will not have any cost, the source code will be kept for internal use only.
 
+## Project's User Stories
+[https://tree.taiga.io/project/rojasmi-anime]
+
+## Live URL
+https://www.pintortico.com/
+
 Credits to @davezuko for creating such an awesome starter kit for React, Redux and React-Router: https://github.com/davezuko/react-redux-starter-kit
 
 ## Table of Contents
