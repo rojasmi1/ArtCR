@@ -5,18 +5,11 @@ $animation-distance: 10px;
   width: auto;;
   height: $icon-height;
   padding: 0 10px;
+  transition: margin 0.5s, transform 0.5s;
 }
 
 .icon:hover{
-  animation-duration: 0.4s;
-  animation-name: bounce;
-}
-
-@keyframes bounce{
-  from{
-    margin-bottom: 0;
-  }
-  to{
-    margin-bottom: $animation-distance;
-  }
+  margin:0 10px 0 0;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px #403c3c;
 }
