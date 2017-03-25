@@ -14,6 +14,9 @@ $headerFontSize : 64px;
   padding: 20px 5px;
   font-family: "Alex Brush";
   color: #3175BF;
+  @media (max-width: 480px){
+    font-size: $headerFontSize/1.8;
+  }
 }
 
 .aboutTheAuthor{
