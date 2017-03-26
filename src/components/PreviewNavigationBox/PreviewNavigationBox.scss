@@ -1,17 +1,47 @@
-$font-family:'Butter';
+$fontFamily:'Butter';
+$contentLineHeight:150%;
 
 .navigationBox{
-  
+  text-align: center;
+  background-color: #E0EAF5;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #666666;
+  padding: 0.2em;
+  margin: 2em 0;
+  transition: all 0.5s;
+}
+
+.navigationBox:hover{
+  transform: scale(1.1);
 }
 
 .headerWrapper{
+  color:#333333;
+  font-family: $fontFamily;
+}
 
+.headerWrapper::after{
+  content: "";
+  height: 2px;
+  background: linear-gradient(to left, transparent 0%,rgba(147,147,147,1) 50%, transparent 100%);
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .boxContent{
-
+  font-family: $fontFamily;
+  line-height: $contentLineHeight;
 }
 
 .readMore{
+  color: #124D9A;
+  font-weight: bold;
+  transition: all 1s;
+  font-family: $fontFamily;
+}
 
+.readMore:hover{
+  color: #B26545;
+  text-decoration: none;
 }
