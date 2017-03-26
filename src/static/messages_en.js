@@ -8,3 +8,24 @@ export const welcomeMessageBody = function(){
 export const footerText = function () {
   return {__html: "Copyright © 2017 <a href='mailto:michael.rojasp@gmail.com'>Michael Rojas Pereira</a>."}
 }
+
+// Navigation Box 1
+export const nivagationBox1Title = "Meet the artist";
+
+export const nivagationBox1Content = "Max grew up surrounded by nature, nature that is reflected in his work. Apart from being an artist, he has an studio where he helps others become one.";
+
+export const nivagationBox1ReadMore = {text:'Read more',link:'/about-max'};
+
+// Navigation Box 2
+export const nivagationBox2Title = "Gallery";
+
+export const nivagationBox2Content = "Take a look at the gallery, it has some of his most popular paints and some other assets like scultures and crafted tools.";
+
+export const nivagationBox2ReadMore = {text:'Read more',link:'/gallery'};
+
+// Navigation Box 3
+export const nivagationBox3Title = "Shows";
+
+export const nivagationBox3Content = "Whant to see Max's expositions? See the upcomming events and don't miss a detail about when you can assist important events!";
+
+export const nivagationBox3ReadMore = {text:'Read more',link:'/shows'};

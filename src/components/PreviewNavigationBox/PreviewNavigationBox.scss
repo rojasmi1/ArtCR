@@ -12,7 +12,9 @@ $contentLineHeight:150%;
 }
 
 .navigationBox:hover{
-  transform: scale(1.1);
+  @media (min-width: 1200px){
+    transform: scale(1.1);
+  }
 }
 
 .headerWrapper{

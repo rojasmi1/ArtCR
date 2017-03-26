@@ -19,15 +19,15 @@ export const HomeView = () => (
   <section id={classes.navigationBoxesContainer}>
     <div className="row">
       <div className="col-md-4">
-      <PreviewNavigationBox title="Title" content="This is a sample box!" readMore={{text:'Read more',link:'http://www.google.com'}}/>
+      <PreviewNavigationBox title={Messages.nivagationBox1Title} content={Messages.nivagationBox1Content} readMore={Messages.nivagationBox1ReadMore}/>
       </div>
 
       <div className="col-md-4">
-      <PreviewNavigationBox title="Title" content="This is a sample box!" readMore={{text:'Read more',link:'http://www.google.com'}}/>
+      <PreviewNavigationBox title={Messages.nivagationBox2Title} content={Messages.nivagationBox2Content} readMore={Messages.nivagationBox2ReadMore}/>
       </div>
 
       <div className="col-md-4">
-      <PreviewNavigationBox title="Title" content="This is a sample box!" readMore={{text:'Read more',link:'http://www.google.com'}}/>
+      <PreviewNavigationBox title={Messages.nivagationBox3Title} content={Messages.nivagationBox3Content} readMore={Messages.nivagationBox3ReadMore}/>
       </div>
     </div>
   </section>
