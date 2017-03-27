@@ -19,13 +19,13 @@ export const nivagationBox1ReadMore = {text:'Read more',link:'/about-max'};
 // Navigation Box 2
 export const nivagationBox2Title = "Gallery";
 
-export const nivagationBox2Content = "Take a look at the gallery, it has some of his most popular paints and some other assets like scultures and crafted tools.";
+export const nivagationBox2Content = "Interested in seeing part of his job? The gallery will walk you through his most popular paintings, as well as some of his scultures and crafted tools.";
 
 export const nivagationBox2ReadMore = {text:'Read more',link:'/gallery'};
 
 // Navigation Box 3
 export const nivagationBox3Title = "Shows";
 
-export const nivagationBox3Content = "Whant to see Max's expositions? See the upcomming events and don't miss a detail about when you can assist important events!";
+export const nivagationBox3Content = "Whant to see Max's expositions? See the upcomming events and don't miss a detail about when and where to assist!";
 
 export const nivagationBox3ReadMore = {text:'Read more',link:'/shows'};
